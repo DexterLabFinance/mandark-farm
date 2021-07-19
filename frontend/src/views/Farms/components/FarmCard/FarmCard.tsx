@@ -183,15 +183,15 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, dxlPrice,
         <Text bold style={{ fontSize: '18px' }}>{(farm.depositFeeBP / 100)}%</Text>
       </Flex>
       <Flex justifyContent='space-between'>
-        <Text style={{ fontSize: '18px' }}>Harvest Tax</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/harvest-tax"><img src="https://mandark.dexterlab.finance/images/dexl/question.png"/></a></StyledTaxInfo>
+        <Text style={{ fontSize: '18px' }}>Harvest Tax</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/harvest-tax"><img src="https://mandark-farm.vercel.app/images/dexl/question.png"/></a></StyledTaxInfo>
         <Text bold style={{ fontSize: '18px' }}>{harvestTax}%</Text>
       </Flex>
       <Flex justifyContent='space-between'>
-        <Text style={{ fontSize: '18px' }}>Tax Period</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/harvest-tax"><img src="https://mandark.dexterlab.finance/images/dexl/question.png"/></a></StyledTaxInfo>
+        <Text style={{ fontSize: '18px' }}>Tax Period</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/harvest-tax"><img src="https://mandark-farm.vercel.app/images/dexl/question.png"/></a></StyledTaxInfo>
         <Text bold style={{ fontSize: '18px' }}>{farm.harvestInterval/3600}h</Text>
       </Flex>
       <Flex justifyContent='space-between'>
-        <Text style={{ fontSize: '18px' }}>Current Boost</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/pool-boost"><img src="https://mandark.dexterlab.finance/images/dexl/question.png"/></a></StyledTaxInfo>
+        <Text style={{ fontSize: '18px' }}>Current Boost</Text> <StyledTaxInfo><a href="https://dexterlabfinance.gitbook.io/dexterlab-finance/features/mandark-features/pool-boost"><img src="https://mandark-farm.vercel.app/images/dexl/question.png"/></a></StyledTaxInfo>
         <Text bold style={{ fontSize: '18px' }}>{userPoolBoost > 0 ? userPoolBoost/100 : userPoolBoost}%</Text>
       </Flex>
       <Flex justifyContent='space-between'>
