@@ -30,11 +30,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange (In Progress)',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
         label: 'Liquidity (In Progress)',
-        href: 'https://exchange.pancakeswap.finance/#/add/BNB/',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
         label: 'Swap',
@@ -57,12 +57,12 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap (In Progress)',
-        href: 'https://pancakeswap.info/token/',
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
-        label: 'Mandark Chart (In Progress)',
-        href: 'https://poocoin.app/tokens/',
+        label: 'Mandark Chart',
+        href: 'https://poocoin.app/tokens/0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
         label: 'Dappradar (In Progress)',
@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'vfat.tools (In Progress)',
-        href: 'https://vfat.tools/bsc/',
+        href: '/',
       },
     ],
   },
@@ -83,11 +83,6 @@ const config: MenuEntry[] = [
         href: 'https://dexterlabfinance.gitbook.io'
       }
     ],
-  },
-  {
-    label: 'Audit by Techrate (In Progress)',
-    icon: 'AuditIcon',
-    href: '/',
   },
   {
     label: 'Review by Rugdoc (In Progress)',
