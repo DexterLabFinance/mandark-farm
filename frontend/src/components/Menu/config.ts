@@ -53,6 +53,11 @@ const config: MenuEntry[] = [
     href: '/pools',
   },
   {
+    label: 'Referrals (In Progress)',
+    icon: 'InfoIcon',
+    href: '/',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
