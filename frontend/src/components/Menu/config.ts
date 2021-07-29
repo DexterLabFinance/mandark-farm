@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
         href: 'https://poocoin.app/tokens/0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
-        label: 'Dappradar (In Progress)',
+        label: 'Dappradar',
         href: 'https://dappradar.com/binance-smart-chain/defi/mdk-lab-dxl-finance-3rd-layer',
       },
       {
