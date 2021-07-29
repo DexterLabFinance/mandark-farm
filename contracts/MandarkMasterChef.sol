@@ -56,8 +56,6 @@ contract MasterChef is Ownable {
     Mandark public MANDARK;
     // Dev address.
     address public devaddr;
-    // Lab address - to support deflationary token.
-    address public labaddr;
     // MANDARK tokens created per block.
     uint256 public mandarkPerBlock;
     // final MANDARK per block after emission reduction.
@@ -127,7 +125,6 @@ contract MasterChef is Ownable {
     constructor(
         Mandark _MANDARK,
         address _devaddr,
-        address _labaddr,
         address _feeAddress,
         uint256 _mandarkPerBlock,
         uint256 _targetMandarkPerBlock,
@@ -135,7 +132,6 @@ contract MasterChef is Ownable {
     ) public {
         MANDARK = _MANDARK;
         devaddr = _devaddr;
-        labaddr = _labaddr;
         feeAddress = _feeAddress;
         mandarkPerBlock = _mandarkPerBlock;
         targetMandarkPerBlock = _targetMandarkPerBlock;
@@ -259,8 +255,7 @@ contract MasterChef is Ownable {
 
         uint256 multiplier = getMultiplier(pool.lastRewardBlock, block.number);
         uint256 mandarkReward = multiplier.mul(mandarkPerBlock).mul(pool.allocPoint).div(totalAllocPoint);
-        MANDARK.mint(devaddr, mandarkReward.div(20));
-        MANDARK.mint(labaddr, mandarkReward.div(20));
+        MANDARK.mint(devaddr, mandarkReward.div(10));
         MANDARK.mint(address(this), mandarkReward);
         pool.accMANDARKPerShare = pool.accMANDARKPerShare.add(mandarkReward.mul(1e12).div(lpSupply));
         pool.lastRewardBlock = block.number;
