@@ -29,11 +29,11 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange (In Progress)',
+        label: 'Exchange',
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
-        label: 'Liquidity (In Progress)',
+        label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/add/BNB/0xc5c6381a31be81415366fc81f4e38466cceb0f3b',
       },
       {
@@ -71,7 +71,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Dappradar (In Progress)',
-        href: '/',
+        href: 'https://dappradar.com/binance-smart-chain/defi/mdk-lab-dxl-finance-3rd-layer',
       },
       {
         label: 'vfat.tools (In Progress)',
