@@ -54,7 +54,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Referrals (In Progress)',
-    icon: 'InfoIcon',
+    icon: 'GroupsIcon',
     href: '/',
   },
   {
