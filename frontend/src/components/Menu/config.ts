@@ -90,9 +90,9 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Review by Rugdoc (In Progress)',
+    label: 'Review by Rugdoc',
     icon: 'AuditIcon',
-    href: '/',
+    href: 'https://rugdoc.io/project/mandark-dexterlab-finance/',
   },
 ]
 
